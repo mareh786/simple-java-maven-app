@@ -16,6 +16,11 @@ pipeline {
                 }
             }
         }
+        stage('Feature') {
+            steps {
+                echo "New feature will be added soon"
+            }
+        }
         stage('End') {
             steps {
                 echo "Completed"
